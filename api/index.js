@@ -25,7 +25,7 @@ let subscriptions = [];
 
 // Route để lưu trữ subscription
 app.get("/", (req, res) => {
-  res.status(201).json({ message: " tll" });
+  res.status(201).json({ message: "hello" });
 });
 
 app.post("/subscribe", (req, res) => {
